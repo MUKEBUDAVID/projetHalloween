@@ -1,0 +1,225 @@
+* {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 120vh;
+    width: 100%;
+    background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%);
+    overflow: hidden;
+    z-index: 2;
+}
+
+
+/* the header and child */
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 2;
+
+}
+
+header div {
+    width: 122px;
+    height: 23px;
+    margin-top: 33px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header div a p {
+    color: #ffff;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+
+}
+
+header nav {
+    width: 490px;
+    height: 34px;
+    margin-top: 30px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    margin-top: 10px;
+    color: #FF5B79;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+header nav button {
+    width: 82px;
+    height: 34px;
+    border: 0.848611px solid #FF5B79;
+    box-sizing: border-box;
+    border-radius: 34px;
+    background-color: transparent;
+    color: #FF5B79;
+    cursor: pointer;
+    font-size: 11px;
+
+}
+
+/* the main and child */
+main {
+    height: 100vh;
+    width: 100%;
+
+    /* position: relative; */
+
+}
+
+main #img_1 {
+    position: absolute;
+    z-index: 1;
+    top: -87px;
+}
+
+main #img_2 {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+
+}
+
+main section {
+    width: 377px;
+    height: 3 80px;
+    position: absolute;
+    left: 700px;
+    top: 185px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px rebeccapurple solid; */
+
+
+}
+
+#div_1 {
+    width: 377px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px rgb(12, 5, 48) solid; */
+
+}
+
+#nth_1 {
+    color: #FF5B79;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 377px;
+    height: 25px;
+    /* border: 2px rgb(129, 72, 45) solid; */
+
+
+}
+
+#nth_2 {
+    color: #ffff;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 109%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 377px;
+    height: 188px;
+    margin-top: 5px;
+    /* border: 3px green solid; */
+
+
+}
+
+main section aside {
+    width: 377px;
+    height: 100px;
+    margin-top: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: #ffff;
+    opacity: 0.8;
+    /* border: 2px rgb(209, 241, 24) solid; */
+}
+
+main #span_1 img {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+main #span_2 img {
+    position: absolute;
+    position: relative;
+    top: 74%;
+    left: 23%;
+}
+main #span_2::before {
+    position: absolute;
+    content: "Captain Sem";
+    color: #ffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 180%;
+    top: 90%;
+    left: 14%;
+    
+    
+    
+}
+main #span_2::after {
+    position: absolute;
+    content: "Veteran Spooky Ghost";
+    color: #ffff;
+    top: 94%;
+    left: 9%;
+    
+}
+main #span_3 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+
+}
+main #span_4 {
+    position: absolute;
+    top: 89%;
+    left: 78%;
+    
+
+}
+main #span_4::before {
+    position: absolute;
+    content: "His Track Record";
+    top: 7%;
+    left: -506%;
+   color: #FFFFFF;
+
+}
+main #span_5 img{
+     position: absolute;
+     top: 69%;
+     left: 88%;
+}
